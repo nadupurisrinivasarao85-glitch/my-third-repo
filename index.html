@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashion Vibe - Online Store</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: #fff;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1200x400?text=Fashion+Banner') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 2rem;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .product {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+
+    .product h3 {
+      margin: 0.5rem 0;
+    }
+
+    .product p {
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fashion Vibe</h1>
+    <p>Your Style, Our Passion</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Women</a>
+    <a href="#">Men</a>
+    <a href="#">Accessories</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <div>Fall Collection 2025</div>
+  </section>
+
+  <main class="container">
+    <h2>Featured Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x400?text=Product+1" alt="Product 1" />
+        <h3>Red Dress</h3>
+        <p>$49.99</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x400?text=Product+2" alt="Product 2" />
+        <h3>Men's Jacket</h3>
+        <p>$89.99</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x400?text=Product+3" alt="Product 3" />
+        <h3>Leather Handbag</h3>
+        <p>$129.99</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Fashion Vibe. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
